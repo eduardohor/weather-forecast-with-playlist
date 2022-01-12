@@ -18,7 +18,7 @@ export function ListSave() {
   return (
     <>
       <h1>Listas Salvas</h1>
-      <Link to="/">
+      <Link to="/weather-forecast-with-playlist">
         <IoChevronBackCircleSharp className={styles.btnBack} />
       </Link>
       <hr />

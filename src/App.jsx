@@ -14,8 +14,15 @@ export function App() {
 
         <ItemsProvider>
           <Switch>
-            <Route exact path="/" component={SearchBox}></Route>
-            <Route path="/list-music" component={ListSave}></Route>
+            <Route
+              exact
+              path="/weather-forecast-with-playlist"
+              component={SearchBox}
+            ></Route>
+            <Route
+              path="/weather-forecast-with-playlist/list-music"
+              component={ListSave}
+            ></Route>
             <Route path="*">
               <div className={styles.noRoute}>Essa rota não existe</div>
             </Route>
