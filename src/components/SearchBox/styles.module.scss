@@ -1,0 +1,54 @@
+.content{
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  .contentWrapperSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .txtBusca{
+      width: 60%;
+      height: 30px;
+      padding: 4px;
+      border: none;
+      box-shadow: 0 0 20px #cccccc;
+    }
+  
+    .btnSearch{
+      margin-left: 15px;
+      padding:8px;
+      border: none;
+      background: #cccccc;
+      border-radius: 6px;
+      cursor: pointer;
+      transition-duration: 0.4s;
+    }
+    
+    .btnSearch:hover{
+      background: #a1a1a1;
+      
+    }
+    
+    .btnSalveList{
+      text-decoration: none;
+      text-align: center;
+      color: black;
+      display:inline-block;
+      font-size: 13px;
+      margin-left: 15px;
+      padding:8px;
+      background: #cccccc;
+      border-radius: 6px;
+      cursor: pointer; 
+    } 
+
+    .btnSalveList:hover{
+      background: #a1a1a1;
+    }
+  }
+
+
+}

@@ -1,0 +1,14 @@
+.listMusic{
+  list-style: none;
+  font-size:20px;
+  text-align: justify;
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 36vh;
+  height:36vh;
+ 
+ a{
+    text-decoration: none;
+    color: black;
+  }
+}
