@@ -16,13 +16,13 @@ export function App() {
           <Switch>
             <Route
               exact
-              path="/weather-forecast-with-playlist"
+              path="https://eduardohor.github.io/weather-forecast-with-playlist/"
               component={SearchBox}
             >
               <SearchBox />
             </Route>
             <Route
-              path="/weather-forecast-with-playlist/list-music"
+              path="https://eduardohor.github.io/weather-forecast-with-playlist/list-music"
               component={ListSave}
             >
               <ListSave />
