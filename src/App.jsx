@@ -14,19 +14,8 @@ export function App() {
 
         <ItemsProvider>
           <Switch>
-            <Route
-              exact
-              path="https://eduardohor.github.io/weather-forecast-with-playlist/"
-              component={SearchBox}
-            >
-              <SearchBox />
-            </Route>
-            <Route
-              path="https://eduardohor.github.io/weather-forecast-with-playlist/list-music"
-              component={ListSave}
-            >
-              <ListSave />
-            </Route>
+            <Route exact path="/" component={SearchBox}></Route>
+            <Route path="/list-music" component={ListSave}></Route>
             <Route path="*">
               <div className={styles.noRoute}>Essa rota não existe</div>
             </Route>

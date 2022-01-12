@@ -76,10 +76,7 @@ export function SearchBox() {
           >
             Buscar
           </button>
-          <Link
-            to="https://eduardohor.github.io/weather-forecast-with-playlist/list-music"
-            className={styles.btnSalveList}
-          >
+          <Link to="/list-music" className={styles.btnSalveList}>
             Listas Salvas
           </Link>
         </div>
