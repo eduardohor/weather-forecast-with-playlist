@@ -14,10 +14,17 @@ export function App() {
 
         <ItemsProvider>
           <Switch>
-            <Route exact path="/" component={SearchBox}>
+            <Route
+              exact
+              path="/weather-forecast-with-playlist"
+              component={SearchBox}
+            >
               <SearchBox />
             </Route>
-            <Route path="/list-music" component={ListSave}>
+            <Route
+              path="/weather-forecast-with-playlist/list-music"
+              component={ListSave}
+            >
               <ListSave />
             </Route>
             <Route path="*">

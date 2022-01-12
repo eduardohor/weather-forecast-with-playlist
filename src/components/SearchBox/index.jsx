@@ -76,7 +76,10 @@ export function SearchBox() {
           >
             Buscar
           </button>
-          <Link to="list-music" className={styles.btnSalveList}>
+          <Link
+            to="/weather-forecast-with-playlist/list-music"
+            className={styles.btnSalveList}
+          >
             Listas Salvas
           </Link>
         </div>
