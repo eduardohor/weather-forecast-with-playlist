@@ -1,5 +1,4 @@
 .content{
-  font-size: 30px;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -9,22 +8,51 @@
     justify-content: center;
     align-items: center;
 
+    @media screen and (max-width:462px){
+      flex-direction: column;
+      
+    }
+
     .txtBusca{
       width: 60%;
       height: 30px;
       padding: 4px;
       border: none;
       box-shadow: 0 0 20px #cccccc;
+      font-size: 18px;
+
+      @media screen { 
+        @media(max-width:636px){
+          width:54%;
+        } 
+        @media(max-width:522px){
+          width:48%;
+        }
+        @media (max-width:462px){
+        width: 90%;
+       }
+           
+      }
     }
   
     .btnSearch{
       margin-left: 15px;
-      padding:8px;
+      padding:6px;
       border: none;
       background: #cccccc;
       border-radius: 6px;
       cursor: pointer;
       transition-duration: 0.4s;
+      font-size: 18px;
+
+      @media screen and (max-width:462px){
+        align-self: stretch;
+        width: 90%;
+        margin-top: 10px;
+        padding: 4px;
+        font-size: 18px;
+
+      }
     }
     
     .btnSearch:hover{
@@ -37,18 +65,23 @@
       text-align: center;
       color: black;
       display:inline-block;
-      font-size: 13px;
+      font-size: 18px;
       margin-left: 15px;
-      padding:8px;
+      padding:6px;
       background: #cccccc;
       border-radius: 6px;
       cursor: pointer; 
+
+      @media screen and (max-width:462px){
+        align-self: stretch;
+        width: 90%;
+        margin-top: 10px;
+        font-size: 18px;
+      }
     } 
 
     .btnSalveList:hover{
       background: #a1a1a1;
     }
   }
-
-
 }

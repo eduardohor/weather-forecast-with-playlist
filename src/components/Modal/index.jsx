@@ -17,7 +17,7 @@ export function Modal(props) {
       className={props.show ? styles.modal_container : styles.hide_modal}
     >
       <div className={styles.modal}>
-        <p>Lista alva com sucesso!</p>
+        <p>Lista salva com sucesso!</p>
         <button id="button_modal">Ok</button>
       </div>
     </div>

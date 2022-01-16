@@ -83,9 +83,8 @@ export function SearchBox() {
             Listas Salvas
           </Link>
         </div>
-
-        <ResultListMusic weather={weather} sound={sound} tracks={tracks} />
       </form>
+      <ResultListMusic weather={weather} sound={sound} tracks={tracks} />
     </div>
   );
 }

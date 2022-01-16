@@ -10,6 +10,12 @@ hr{
   left: 20px;
   cursor: pointer;
   color: black;
+
+  @media screen and (max-width:462px){
+    font-size: 34px;
+    top: 18px;
+    left: 6px;
+  }
 }
 
 .contentList{
