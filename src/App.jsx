@@ -10,7 +10,9 @@ export function App() {
   return (
     <Router>
       <div className={styles.contentWrapper}>
-        <h1>Temperatura local</h1>
+        <header>
+          <h1>Temperatura local</h1>
+        </header>
 
         <ItemsProvider>
           <Switch>

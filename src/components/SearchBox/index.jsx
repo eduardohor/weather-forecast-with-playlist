@@ -59,31 +59,33 @@ export function SearchBox() {
 
   return (
     <div className={styles.content}>
-      <form>
-        <div className={styles.contentWrapperSearch}>
-          <input
-            className={styles.txtBusca}
-            type="text"
-            id="txtbusca"
-            placeholder="Digite o nome da cidade"
-            onChange={handleChange}
-            value={city}
-          />
-          <button
-            className={styles.btnSearch}
-            type="submit"
-            onClick={handleSearch}
-          >
-            Buscar
-          </button>
-          <Link
-            to="/weather-forecast-with-playlist/list-music"
-            className={styles.btnSalveList}
-          >
-            Listas Salvas
-          </Link>
-        </div>
-      </form>
+      <section>
+        <form>
+          <div className={styles.contentWrapperSearch}>
+            <input
+              className={styles.txtBusca}
+              type="text"
+              id="txtbusca"
+              placeholder="Digite o nome da cidade"
+              onChange={handleChange}
+              value={city}
+            />
+            <button
+              className={styles.btnSearch}
+              type="submit"
+              onClick={handleSearch}
+            >
+              Buscar
+            </button>
+            <Link
+              to="/weather-forecast-with-playlist/list-music"
+              className={styles.btnSalveList}
+            >
+              Listas Salvas
+            </Link>
+          </div>
+        </form>
+      </section>
       <ResultListMusic weather={weather} sound={sound} tracks={tracks} />
     </div>
   );

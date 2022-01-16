@@ -56,7 +56,7 @@ export function ResultListMusic(props) {
   }
 
   return (
-    <div className={styles.contentItems}>
+    <main className={styles.contentItems}>
       {props.weather ? (
         <div className={styles.items}>
           <p>
@@ -81,6 +81,6 @@ export function ResultListMusic(props) {
       ) : null}
 
       <Modal show={showModal} onHideModal={onHideModal}></Modal>
-    </div>
+    </main>
   );
 }
