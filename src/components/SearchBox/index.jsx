@@ -26,7 +26,7 @@ export function SearchBox() {
 
   function weatherForecast() {
     fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=a249e9bb4618ab9c5245e86a8f4801db&lang=pt-br&units=metric`
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.REACT_APP_WEATHER_APPID}&lang=pt-br&units=metric`
     )
       .then((response) => {
         if (response.status === 200) {

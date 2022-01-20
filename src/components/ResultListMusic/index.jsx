@@ -20,8 +20,7 @@ export function ResultListMusic(props) {
         method: "GET",
         headers: {
           "x-rapidapi-host": "shazam.p.rapidapi.com",
-          "x-rapidapi-key":
-            "bac2dba51amshc4cc9af918cf15dp1fd7b0jsneebcc53e675c",
+          "x-rapidapi-key": `${process.env.REACT_APP_SHAZAM_KEY}`,
         },
       }
     )
