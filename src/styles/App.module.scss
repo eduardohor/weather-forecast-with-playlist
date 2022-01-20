@@ -5,7 +5,7 @@ body{
 
 }
 .contentWrapper{
-  width: 110vh;
+  width: 55vw;
   height: 95vh;
   padding-top: 10px;
   margin-top: 10px;
@@ -14,26 +14,30 @@ body{
   box-shadow: 0 0 20px #cccccc;
   position: relative;
 
-  @media screen {
-    @media (max-width:636px) {
-      width:90vh;
-    }
-    @media(max-width:522px){
-      width:80vh;
-    }
-    @media (max-width:462px){
-      width:320px;
-    }
+  @media screen and (max-width:650px){
+    font-size: 24px;
+    width: 70vw;
   }
- 
+  
   h1{
-    text-align: center;
-    font-size: 35px;
-    
-    @media screen and (max-width:462px){
-      font-size: 22px;
+      text-align: center;
+      font-size: 35px;
+      
+      @media screen {
+      @media (max-width:906px){
+        font-size: 24px;
+      }
+      @media (max-width:650px){
+        font-size: 22px;
+      }
+      @media (max-width:462px){
+        font-size:20px
+      }
+      @media (max-width:360px){
+        font-size:18px
+      }
     }
-  }
+   }  
 
   .noRoute{
     text-align: center;

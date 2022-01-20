@@ -85,8 +85,8 @@ export function SearchBox() {
             </Link>
           </div>
         </form>
+        <ResultListMusic weather={weather} sound={sound} tracks={tracks} />
       </section>
-      <ResultListMusic weather={weather} sound={sound} tracks={tracks} />
     </div>
   );
 }

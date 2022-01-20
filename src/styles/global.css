@@ -12,6 +12,12 @@ body{
   background: #F2F2F2;   
 }
 
+@media screen and (max-width:906px){
+  *{
+    font-size: 24px;
+  }
+}
+
 @media screen and (max-width:462px){
   *{
     font-size: 20px;

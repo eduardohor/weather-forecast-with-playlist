@@ -8,8 +8,9 @@
     justify-content: center;
     align-items: center;
 
-    @media screen and (max-width:462px){
+    @media screen and (max-width:906px){
       flex-direction: column;
+      align-items: flex-start;
       
     }
 
@@ -28,8 +29,9 @@
         @media(max-width:522px){
           width:48%;
         }
-        @media (max-width:462px){
+        @media (max-width:906px){
         width: 90%;
+        margin-left: 15px;
        }
            
       }
@@ -45,7 +47,7 @@
       transition-duration: 0.4s;
       font-size: 18px;
 
-      @media screen and (max-width:462px){
+      @media screen and (max-width:906px){
         align-self: stretch;
         width: 90%;
         margin-top: 10px;
@@ -66,13 +68,14 @@
       color: black;
       display:inline-block;
       font-size: 18px;
+      white-space: nowrap;
       margin-left: 15px;
       padding:6px;
       background: #cccccc;
       border-radius: 6px;
       cursor: pointer; 
 
-      @media screen and (max-width:462px){
+      @media screen and (max-width:906px){
         align-self: stretch;
         width: 90%;
         margin-top: 10px;
